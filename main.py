@@ -1,4 +1,4 @@
-initial_weight = 55
+initial_weight = 50.5
 annual_gain = 0.5
 moon_gravity_ratio = 0.165
 
