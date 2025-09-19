@@ -7,4 +7,4 @@ print("-" * 40)
 for year in range(1, 11):
     earth_weight = initial_weight + annual_gain * year
     moon_weight = earth_weight * moon_gravity_ratio
-    print("{:<6}{:<16.1f}{:.1f}".format(year, earth_weight, moon_weight))
+    print("{:<6}{:<16.1f}{:.3f}".format(year, earth_weight, moon_weight))
